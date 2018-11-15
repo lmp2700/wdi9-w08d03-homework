@@ -3,6 +3,7 @@ import React from 'react'
 console.log('giphy search 1')
 const GiphySearch = (props) => {
     console.log('giphy search 2')
+    console.log(props)
     const giphys = props.giphys.map((giphys, i) => {
         return <div id="query" key={i}>
             <ul>
